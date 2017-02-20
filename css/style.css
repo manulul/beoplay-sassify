@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(fonts/Montserrat-Regular.ttf); }
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(fonts/Montserrat-Bold.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(fonts/Lato-Bold.ttf); }
+@font-face {
+  font-family: Lato-Light;
+  src: url(fonts/Lato-Light.ttf); }
+@font-face {
+  font-family: "Nexa Light";
+  src: url("fonts/Nexa Light.ttf"); }
+@font-face {
+  font-family: Lato-Hairline;
+  src: url(fonts/Lato-Hairline.ttf); }
+@font-face {
+  font-family: Abril-Fatface;
+  src: url(fonts/AbrilFatface-Regular.otf); }
+body {
+  background-color: #fff;
+  height: 100%; }
+  body hr {
+    align-content: center;
+    margin: 0 32%;
+    padding: 0;
+    width: 39%;
+    opacity: 0.2; }
+
+.logo {
+  position: absolute; }
+
+.navbar1 {
+  list-style-type: none;
+  text-align: center; }
+  .navbar1 li {
+    font-family: Lato-Light;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    position: relative; }
+  .navbar1 li a {
+    color: #878787;
+    text-decoration: none;
+    display: block; }
+
+.navbar2 {
+  list-style-type: none;
+  text-align: center; }
+  .navbar2 li {
+    font-family: Montserrat-Regular;
+    font-size: 11px;
+    display: inline-block;
+    padding: 10px;
+    position: relative; }
+  .navbar2 li a {
+    text-decoration: none;
+    color: #878787; }
+
+.button {
+  border-style: none;
+  background-color: #3f3f3f;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px; }
+
+main {
+  background-color: #f1f1f1; }
+  main h1 {
+    font-family: Lato-Hairline;
+    font-size: 45px;
+    color: #777777;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 3%; }
+  main p {
+    font-family: Lato-Light;
+    font-size: 26px;
+    color: #777777;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 20%; }
+
+.logo2 {
+  padding-left: 12%; }
+
+/* PRICE OG CURRENCY ER BYTTET OM FOR AT FIXE PLACERINGEN */
+.price {
+  font-family: Lato-Light;
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  padding-top: 22%;
+  padding-left: 3%; }
+
+.currency {
+  font-family: 'Montserrat Light', arial;
+  font-size: 20px; }
+
+.nav1 {
+  list-style-type: none;
+  text-align: center;
+  background-color: #292929;
+  margin-bottom: 1px; }
+  .nav1 li {
+    font-family: Lato-Light;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 25px; }
+  .nav1 li a {
+    color: #878787;
+    text-decoration: none;
+    display: block; }
+
+.nav2 {
+  list-style-type: none;
+  text-align: center;
+  background-color: #292929;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 1px; }
+  .nav2 li {
+    font-family: Montserrat-Bold;
+    font-size: 11px;
+    display: inline-block;
+    padding: 10px;
+    position: relative; }
+  .nav2 li a {
+    text-decoration: none;
+    color: #dbdbdb; }
+
+/* HER STARTER SELECT */
+.nav select {
+  background-color: #181818;
+  display: inline-block;
+  width: 150px;
+  height: 20px;
+  padding: 3px 6px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #878787;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-text-fill-color: #878787; }
+  .nav select option {
+    color: #878787;
+    -webkit-text-fill-color: #878787; }
+
+label {
+  color: #878787;
+  font-family: Lato-Light;
+  font-size: 20px; }
+
+object {
+  margin: 20px; }
+
+.styled-select select {
+  background: black;
+  border-radius: 15px;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px;
+  width: 200px; }
+
+.styled-select black rounded {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px; }
+
+.black select {
+  color: #878787; }
+
+/* SELECT SLUT */
+section {
+  background-color: #333333;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: -52px; }
+
+section p {
+  font-family: Abril-Fatface;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+  margin-bottom: 10px; }
+
+section a {
+  font-family: Montserrat-Regular;
+  color: #878787;
+  font-size: 9px;
+  text-decoration: none;
+  padding-top: 10px; }
+
+footer {
+  background-color: #333;
+  margin-top: -100px;
+  text-align: center;
+  padding-top: 100px; }
+
+footer p {
+  font-family: Montserrat-Regular;
+  color: #878787;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: inline-block; }
+
+footer a {
+  font-family: Montserrat-Regular;
+  color: #878787;
+  font-size: 10px;
+  display: inline-block;
+  text-transform: uppercase; }
+
+#modal-box {
+  width: 652px;
+  height: 251px;
+  background-color: #f0eee9;
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+#modal-box p {
+  font-family: Lato-Bold;
+  color: #bcb2a5;
+  display: inline-flex;
+  flex-direction: column; }
+
+.signuptext {
+  font-size: 1.6em;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 320px;
+  width: 250px; }
+
+.winnertext {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 320px;
+  width: 270px;
+  text-align: center; }
+
+#xbutton {
+  position: absolute;
+  background-color: #4f4f4f;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  color: white;
+  font-size: 18px;
+  margin-left: -15px;
+  margin-top: -15px;
+  text-decoration: none;
+  border-color: #4f4f4f;
+  border: 1px; }
+
+#signup {
+  font-family: Lato-Bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bcb2a5;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 310px;
+  width: 280px;
+  height: 33px;
+  background-color: #bcb2a5;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 11px;
+  border-radius: 10px; }
+
+#modal-box img {
+  margin-right: 100%;
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */
